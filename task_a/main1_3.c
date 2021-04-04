@@ -2,25 +2,25 @@
 #include <dlfcn.h>
 #include "hello_ariel.h"
 
-int main() {
-
-
+int main() 
+{
     void *lib = dlopen("./hello_ariel.so", RTLD_LAZY);
 
-    if(lib == NULL) {
+    if(lib == NULL) 
+    {
         printf("File not found!\n");
         return -1;
     }
-
-
+    
     void (*fnc)() = (void *)dlsym(lib, "welcome");
 
-    if (fnc == NULL) {
+    if (fnc == NULL) 
+    {
         printf("Function not found!\n");
         return -1;
     }
 
-    fnc("Welcome Tal!");
-    // welcome("Itay and Tal");
+    fnc("Welcome Adi!");
+
     return 0;
 }
