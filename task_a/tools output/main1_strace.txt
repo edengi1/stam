@@ -39,7 +39,7 @@ munmap(0x7f050c974000, 62699)           = 0
 fstat(1, {st_mode=S_IFREG|0664, st_size=3098, ...}) = 0
 brk(NULL)                               = 0x558a6c853000
 brk(0x558a6c874000)                     = 0x558a6c874000
-write(1, "Welcome, Itay\n", 14Welcome, Itay
+write(1, "Welcome, Eden\n", 14Welcome, Eden
 )         = 14
 exit_group(0)                           = ?
 +++ exited with 0 +++
