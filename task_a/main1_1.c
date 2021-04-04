@@ -2,7 +2,7 @@
 
 int main() {
 
-    welcome("Itay");
+    welcome("eden");
     
     return 0;
 }
